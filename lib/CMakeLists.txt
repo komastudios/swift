@@ -76,3 +76,6 @@ add_subdirectory(SymbolGraphGen)
 add_subdirectory(SwiftSyntax)
 add_subdirectory(Threading)
 add_subdirectory(Tooling)
+
+# Add embeddable compiler library (must be after all dependencies)
+add_subdirectory(SwiftCompilerCore)
